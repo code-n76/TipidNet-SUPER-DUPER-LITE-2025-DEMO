@@ -25,7 +25,10 @@ html {
   position: relative;
   display: inline-block;
   background-image: var(--clr-btns-bg);
-  padding: 15px;
+  padding-left: 15px;
+  padding-top: 15px;
+  padding-right: 15px;
+  padding-bottom: 5px;
   margin-left: 3px;
   margin-top: 0px;
   margin-right: 3px;

@@ -91,3 +91,14 @@ h1 {
 .card > *:not(:last-child) {
   margin-bottom: 0rem;
 }
+
+#faqs {
+  font-size: 12px;
+  font-weight: 600;
+  color: var(--clr-card-bg);
+  padding: 5px;
+}
+.btn-faqs-grp {
+  position: relative;
+  display: inline-block;
+}

@@ -53,8 +53,12 @@ body.portal {
   color: rgb(223, 241, 255);
   line-height: 45px;
   margin-bottom: 10px;
-  background: rgb(22, 69, 123);
+  background: var(--clr-body-bg);
   border-radius: 20px 20px 0 0;
+}
+.title-sign-in img {
+  height: 50px;
+  width: auto;
 }
 
 .status {
@@ -80,7 +84,7 @@ body.portal {
   margin-right: auto;
   margin-bottom: 15px;
   background: transparent;
-  color: black;
+  color: rgb(22, 69, 123);
   text-align: left;
   border-radius: 24px;
   border: 2px solid var(--clr-input-border);
@@ -109,8 +113,8 @@ body.portal {
   margin-left: 0;
   margin-right: auto;
   margin-bottom: 5px;
-  background: rgba(22, 69, 123, 0.5);
-  border: 1px solid var(--clr-input-border);
+  background: rgba(223, 241, 255);
+  border-color: transparent;
   border-radius: 10px;
   /* border: none; */
   /* outline: none; */

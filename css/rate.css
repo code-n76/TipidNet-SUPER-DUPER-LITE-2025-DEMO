@@ -60,3 +60,14 @@ td {
 tr {
   height: 30px;
 }
+
+#rate {
+  font-size: 12px;
+  font-weight: 600;
+  color: var(--clr-card-bg);
+  padding: 5px;
+}
+.btn-rate-grp {
+  position: relative;
+  display: inline-block;
+}
